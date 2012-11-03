@@ -17,7 +17,6 @@
 		5102DA5D133578A100B56513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5102DA5B133578A100B56513 /* InfoPlist.strings */; };
 		5102DA60133578A100B56513 /* Simple_CalculatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5102DA5F133578A100B56513 /* Simple_CalculatorTests.h */; };
 		5102DA62133578A100B56513 /* Simple_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102DA61133578A100B56513 /* Simple_CalculatorTests.m */; };
-		5102DA731335873700B56513 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102DA6F1335799D00B56513 /* SimpleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,22 +35,20 @@
 		5102DA3A133578A100B56513 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5102DA3B133578A100B56513 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5102DA3C133578A100B56513 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5102DA3F133578A100B56513 /* Simple Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Calculator-Info.plist"; sourceTree = "<group>"; };
+		5102DA3F133578A100B56513 /* Simple Calculator-Info.plist */ = {isa = PBXFileReference; path = "Simple Calculator-Info.plist"; sourceTree = "<group>"; };
 		5102DA41133578A100B56513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5102DA43133578A100B56513 /* Simple Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		5102DA43133578A100B56513 /* Simple Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		5102DA44133578A100B56513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5102DA47133578A100B56513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5102DA49133578A100B56513 /* Simple_CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		5102DA49133578A100B56513 /* Simple_CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = Simple_CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		5102DA4A133578A100B56513 /* Simple_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		5102DA4D133578A100B56513 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5102DA54133578A100B56513 /* Simple CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CalculatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5102DA5A133578A100B56513 /* Simple CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		5102DA5A133578A100B56513 /* Simple CalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "Simple CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		5102DA5C133578A100B56513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5102DA5E133578A100B56513 /* Simple CalculatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple CalculatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		5102DA5E133578A100B56513 /* Simple CalculatorTests-Prefix.pch */ = {isa = PBXFileReference; path = "Simple CalculatorTests-Prefix.pch"; sourceTree = "<group>"; };
 		5102DA5F133578A100B56513 /* Simple_CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_CalculatorTests.h; sourceTree = "<group>"; };
 		5102DA61133578A100B56513 /* Simple_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_CalculatorTests.m; sourceTree = "<group>"; };
-		5102DA6E1335799D00B56513 /* SimpleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleController.h; path = "Simple Calculator.xcodeproj/SimpleController.h"; sourceTree = "<group>"; };
-		5102DA6F1335799D00B56513 /* SimpleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SimpleController.m; path = "Simple Calculator.xcodeproj/SimpleController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +74,6 @@
 		5102DA28133578A100B56513 = {
 			isa = PBXGroup;
 			children = (
-				5102DA6E1335799D00B56513 /* SimpleController.h */,
-				5102DA6F1335799D00B56513 /* SimpleController.m */,
 				5102DA3D133578A100B56513 /* Simple Calculator */,
 				5102DA58133578A100B56513 /* Simple CalculatorTests */,
 				5102DA36133578A100B56513 /* Frameworks */,
@@ -264,7 +259,6 @@
 			files = (
 				5102DA45133578A100B56513 /* main.m in Sources */,
 				5102DA4B133578A100B56513 /* Simple_CalculatorAppDelegate.m in Sources */,
-				5102DA731335873700B56513 /* SimpleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
